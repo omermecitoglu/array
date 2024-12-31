@@ -1,5 +1,5 @@
 /**
- * This module contains functions to shuffle an array
+ * This module contains a function to shuffle an array
  * @module
  */
 

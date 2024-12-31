@@ -4,6 +4,7 @@
   "license": "MIT",
   "exports": {
     ".": "./src/index.ts",
+    "./chunk": "./src/core/chunk.ts",
     "./shuffle": "./src/core/shuffle.ts"
   },
   "publish": {

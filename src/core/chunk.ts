@@ -1,9 +1,4 @@
 /**
- * This module contains a function to split an array into chunks of a specified size.
- * @module
- */
-
-/**
  * Splits an array into smaller arrays (chunks) of a specified size.
  * 
  * @param input The array to be divided into chunks.
@@ -17,5 +12,3 @@ export function chunk<T>(input: T[], chunkSize: number): T[][] {
   }
   return output;
 }
-
-export default chunk;

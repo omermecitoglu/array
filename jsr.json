@@ -2,11 +2,7 @@
   "name": "@omer/array",
   "version": "1.0.0",
   "license": "MIT",
-  "exports": {
-    ".": "./src/index.ts",
-    "./chunk": "./src/core/chunk.ts",
-    "./shuffle": "./src/core/shuffle.ts"
-  },
+  "exports": "./src/index.ts",
   "publish": {
     "include": [
       "LICENSE",

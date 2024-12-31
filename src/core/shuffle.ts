@@ -1,9 +1,4 @@
 /**
- * This module contains a function to shuffle an array
- * @module
- */
-
-/**
  * Shuffles the elements of an array randomly using the Fisher-Yates algorithm.
  * 
  * @param input The array to shuffle.
@@ -17,5 +12,3 @@ export function shuffle<T>(input: T[]): T[] {
   }
   return output;
 }
-
-export default shuffle;
